@@ -1,0 +1,2042 @@
+:root {
+  --primary-color: #1a2835;
+  --secondary-color: #2980b9;
+  --accent-color: #e67e22;
+  --text-light: #f5f6fa;
+  --shadow-default: 0 2px 8px rgba(0,0,0,0.12);
+  --shadow-hover: 0 6px 12px rgba(0,0,0,0.15);
+  --transition-speed: 0.3s;
+  --border-radius: 10px;
+  --font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* 基础布局 */
+header {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 100;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.search-container {
+  display: flex;
+  gap: 1rem;
+  padding: 0.8rem;
+  background: rgba(255,255,255,0.1);
+  border-radius: var(--border-radius);
+  backdrop-filter: blur(4px);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.search-input {
+  flex: 1;
+  padding: 0.8rem 1.2rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 30px;
+  background: rgba(255,255,255,0.9);
+  font-family: var(--font-family);
+  transition: all var(--transition-speed);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(41,128,185,0.3);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.search-btn {
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(135deg, var(--secondary-color) 0%, #2c3e50 100%);
+  color: var(--text-light);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: 
+    transform var(--transition-speed),
+    box-shadow var(--transition-speed);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.search-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* 分类导航模块 */
+.announcement-bar {
+    background: #fff9e6;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: #856404;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.announcement-content {
+    animation: marquee 20s linear infinite;
+    display: inline-block;
+    padding-left: 100%;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.category-menu {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  padding: 2rem 1rem;
+  background: var(--primary-color);
+  box-shadow: var(--shadow-default);
+  z-index: 2;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.category-item {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  color: var(--text-light);
+  border-radius: 8px;
+  transition: background var(--transition-speed);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.category-menu {
+  width: 120px;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* 主内容区域 */
+main {
+  grid-column: 2;
+  padding: 2rem;
+  margin-left: 200px;
+  position: relative;
+  z-index: 1;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* 视频卡片布局 */
+.video-card {
+  width: 280px;
+  padding: 1.2rem;
+  margin: 0.5rem;
+  position: relative;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.video-cover {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* 网格布局调整 */
+.video-grid {
+  grid-template-columns: repeat(auto-fill, 280px);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* 播放选择器优化 */
+.play-select {
+  max-width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* 视频卡片细节优化 */
+.video-card {
+  padding: 1.5rem;
+  position: relative;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.video-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.category-tag {
+  align-self: flex-start;
+  padding: 0.3rem 0.8rem;
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+  color: white;
+  border-radius: 15px;
+  font-size: 0.9em;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.meta-divider {
+  height: 1px;
+  background: rgba(0,0,0,0.1);
+  margin: 0.8rem 0;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.video-cover {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.video-cover::after {
+  content: '点击观看';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--transition-speed);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.video-cover:hover::after {
+  opacity: 1;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.play-btn {
+  align-self: center;
+  padding: 0.6rem 1.8rem;
+  border-radius: 20px;
+  background: var(--accent-color);
+  transition: transform 0.2s;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.play-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 3px 8px rgba(230,126,34,0.3);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-default);
+  transition: transform var(--transition-speed);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* 响应式设计 */
+@media (max-width: 1024px) {
+  .video-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+  .category-menu {
+    display: none;
+  }
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+  main {
+    grid-column: 1;
+    padding: 1rem;
+  }
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* 组件动画 */
+.video-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: var(--shadow-hover);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.category-item:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.category-menu {
+  width: 100px;
+  height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary-color) rgba(0,0,0,0.1);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.category-menu::-webkit-scrollbar {
+  width: 6px;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.category-menu::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  border-radius: 3px;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+main {
+  margin-left: 100px;
+  overflow-y: auto;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.play-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.pagination button {
+  min-width: 80px;
+  padding: 0.6rem 1.2rem;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .pagination {
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+  }
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}  .pagination button {
+    padding: 0.4rem 1rem;
+    min-width: 70px;
+  }
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.play-btn {
+  background: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity var(--transition-speed);
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 1000px;
+  height: 70vh;
+  background: rgba(0,0,0,0.9);
+  z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-modal .video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.play-btn:hover {
+  opacity: 0.9;
+}

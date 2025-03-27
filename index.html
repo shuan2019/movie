@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视频资源库</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="输入视频名称或演员...">
+            <button onclick="loadVideos()">搜索</button>
+        </div>
+    </header>
+    <div class="announcement-bar" id="announcementBar">
+        <div class="announcement-content"></div>
+    </div>
+    <nav class="category-menu" id="categoryMenu">
+      <!-- 动态分类将在此渲染 -->
+    </nav>
+
+    <main>
+        <div class="video-grid" id="videoContainer"></div>
+        <div class="pagination" id="pagination"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

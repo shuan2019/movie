@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "echo 'Building for Vercel deployment'",
+    "start": "node proxy.js"
+  },
+  "dependencies": {
+    "http-proxy-middleware": "^3.0.3",
+    "@vercel/node": "^4.0.0"
+  }
+}
